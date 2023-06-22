@@ -8,9 +8,9 @@ const IntroCont = () => {
                 <div className="intro__title">
                     <em>Sience Fiction</em>
                     <h3>
-                        Punk
+                        SF장르
                         <br />
-                        Subculture
+                        소개
                     </h3>
                     <p>
                         SF 장르에서 주로 다뤄지는
