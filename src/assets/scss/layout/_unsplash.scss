@@ -65,19 +65,25 @@
     @include border(50px);
   }
 }
+
 //tag
 .unsplash__tag {
-  ul {
+  div {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 50px;
-    li {
-      a {
-        border: 1px solid #0d86f7;
-        padding: 10px 20px;
-        margin: 0 10px;
-        color: #0d86f7;
+    button {
+      border: 1px solid #0d86f7;
+      padding: 10px 20px;
+      margin: 0 10px;
+      color: #0d86f7;
+      background-color: #fff;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #0d86f7;
+        color: #fff;
       }
     }
   }

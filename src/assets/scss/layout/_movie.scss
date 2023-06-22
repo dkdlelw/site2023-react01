@@ -112,18 +112,21 @@
         padding: 10px 20px;
         margin: 0 10px;
         color: #00c183;
+        cursor: pointer;
+        &:hover {
+          background-color: #00c183;
+          color: #fff;
+        }
       }
+    }
+    li.active a {
+      background-color: #00c183;
+      color: #fff;
     }
   }
 }
 //movie__slider
 // slider
-.movie__slider {
-  height: 1000px;
-}
-.movie__slider a img {
-  object-fit: cover;
-  justify-content: center;
-  width: 1920px;
-  height: 900px;
+.swiper {
+  padding: 20px 0 50px;
 }
