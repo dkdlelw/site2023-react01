@@ -7,7 +7,7 @@ import PortCont from "../port/PortCont";
 const PortPage = () => {
     return (
         <Contents>
-            <ContTitle title="portfolio" />
+            <ContTitle title="Media" />
             <PortCont />
         </Contents>
     );
