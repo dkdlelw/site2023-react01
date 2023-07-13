@@ -90,7 +90,12 @@
 }
 // slider
 .unsplash__slider {
-  height: 600px;
+  .swiper {
+    padding: 20px 50px;
+  }
+  .swiper-3d {
+    padding: 30px;
+  }
 }
 .unsplash__slider a img {
   object-fit: cover;
