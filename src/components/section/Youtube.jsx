@@ -6,7 +6,7 @@ const youtube = (props) => {
     <section id="youtubeSection" className={props.attr}>
       <div className="youtube__inner">
         <div className="youtube__text container">
-          <h3>관련 유튜브 추천</h3>1
+          <h3>관련 유튜브 추천</h3>
           <p>
             SF와 관련된 주제를 다룬 유튜브를 추천합니다.
             <br />
